@@ -27,3 +27,39 @@ A full-stack web application for online food ordering built using **Spring Boot*
 
 ---
     
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```
+git clone https://github.com/your-username/food-delivery-app.git
+cd food-delivery-app
+```
+### 2. Backend Setup (Spring Boot)
+- Navigate to the backend folder:
+```
+cd backend
+```
+- Configure your database in application.properties
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/food_ordering_system?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=your password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+```
+- Run the backend:
+```
+mvn spring-boot:run
+```
+### 3. Frontend Setup (React)
+- Navigate to the frontend folder:
+```
+cd ../frontend
+```
+- Install dependencies and run the app:
+```
+npm install
+npm start
+```
