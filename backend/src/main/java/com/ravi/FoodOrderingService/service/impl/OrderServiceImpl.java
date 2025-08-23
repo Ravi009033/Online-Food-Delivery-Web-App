@@ -2,8 +2,8 @@ package com.ravi.FoodOrderingService.service.impl;
 
 import com.ravi.FoodOrderingService.dto.OrderDTO;
 import com.ravi.FoodOrderingService.exception.BadRequestException;
-import com.mahel.FoodOrderingService.model.*;
-import com.mahel.FoodOrderingService.repository.*;
+import com.ravi.FoodOrderingService.model.*;
+import com.ravi.FoodOrderingService.repository.*;
 import com.ravi.FoodOrderingService.model.*;
 import com.ravi.FoodOrderingService.repository.AddressRepository;
 import com.ravi.FoodOrderingService.repository.OrderItemRepository;
